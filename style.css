@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(250, 252, 255);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  font-size: 17px;
+}
+h1 {
+  color: rgba(32, 27, 88, 0.8);
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(57, 77, 188);
+}
+
+img {
+  border-radius: 80px;
+}
+
+div {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+
+.btn:hover {
+  background-color: rgb(10, 8, 21);
+}
+.btn {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(38, 38, 116);
+  margin: 4px;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+
+ul {
+  padding: 0px;
+}
+.social {
+  display: inline-block;
+}
+.social a{
+  color: rgb(38, 38, 116);
+  font-size: 24px;
+  margin: 8px;
+}
+
+.social a:hover{
+  color: rgb(10, 8, 21);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
